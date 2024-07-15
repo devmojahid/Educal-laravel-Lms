@@ -1,0 +1,67 @@
+@use '../abstract' as *;
+
+/*----------------------------------------*/
+/*  04. CATEGORY CSS START
+/*----------------------------------------*/
+
+.category{
+    &__item{
+        padding: 20px 40px;
+        @include border-radius(6px);
+        border: 2px solid $border;
+
+        @media #{$lg}{
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        @media #{$sm}{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        @media #{$xs}{
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        &:hover{
+            box-shadow: 0px 8px 30px rgba(1,15,28,.1);
+        }
+    }
+    &__icon{
+        @media #{$sm}{
+            margin-right: 15px;
+        }
+        & svg{
+            width: 40px;
+            height: 40px;
+            & .st0{
+                fill:#CEE1F2;
+            }
+            & .st1{
+                fill:#3444F1;
+            }
+            & .st4{
+                fill: #3444F1;
+            }
+            & .st2{
+                fill:#FFB31F;
+            }
+            & .st5{
+                fill: #FFB31F;
+            }
+        }
+    }
+    &__title{
+        font-size: 20px;
+        line-height: 1;
+        margin-bottom: 0;
+        &:hover{
+            color: $e-blue;
+        }
+    }
+    &__content{
+        & p{
+            font-weight: 500;
+            margin-bottom: 0;
+        }
+    }
+}

@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+	<!-- Basic metas
+    ======================================== -->
+	<meta charset="utf-8">
+	<meta name="author" content="">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+
+	<!-- Mobile specific metas
+    ======================================== -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Documentation" />
+	<meta property="og:url" content="index.html" />
+	<!-- Page Title
+    ======================================== -->
+	<title>Educal - Online Courses and Education Laravel Item</title>
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+
+	<!-- fonts
+	======================================== -->
+	<link rel="stylesheet" type="text/css" href="assets/css/elegantFont.css">
+
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+</head>
+
+<body>
+	<!--[if lte IE 9]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+	<![endif]-->
+	<!-- Header starts -->
+	<a href="#top" class="back-to-top"><i class="fal fa-arrow-up"></i></a>
+
+	<header class="page-header sticky-top" id="top">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-3 col-md-4 col-sm-6 col-6">
+					<div class="logo">
+						<a href="index.html" class="nav-brand">
+							<img src="assets/images/logo.png" alt="logo" width="155">
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6 col-6">
+					<div class="right-part d-flex justify-content-end align-items-center">
+						<form action="#" class="search-form d-none d-lg-block">
+							<div class="input-group">
+								<input type="text" class="search-input" placeholder="Search item">
+							</div>
+						</form>
+						<div class="nav-list">
+							<a class="support-link d-none d-md-inline-block" href="https://help.themepure.net/"
+								target="_blank">request support</a>
+							<a class="e-btn d-none d-md-inline-block"
+								href="https://themeforest.net/user/theme_pure/portfolio" target="_blank">Visit
+								Themes And Scripts</a>
+							<a href="#" class="toggle-navbar"><i class="icon_menu"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End of .container -->
+	</header>
+	<div class="main-content-wrapper">
+		<div class="container ">
+			<div class="row doc-container">
+				<div class="col-xl-3">
+					<aside class="sidebar-navigation sticky-top doc-sidebar">
+						<h3>Doc Navigation</h3>
+						<!-- <nav class="nav"> -->
+						<ul class="themepure-doc-nav  nav-sidebar doc-nav">
+							<li class="nav-item">
+								<a class="nav-link" href="#getting_started"><img
+										src="assets/images/icon/start-button.png"> Getting Started </a>
+								<span class="icon">
+									<i class="icon_plus"></i>
+									<i class="icon_minus-06"></i>
+								</span>
+								<ul class="submenu dropdown_nav">
+									<li class="nav-item"><a class="nav-link" href="#requirements">Requirements</a></li>
+									<li class="nav-item"><a class="nav-link" href="#what_included">What's Included</a>
+									</li>
+								</ul>
+							</li> 
+
+							<li class="nav-item">
+								<a class="nav-link" href="#laravel_installation"><img
+										src="assets/images/icon/analytics.png"> Educal Installation</a>
+								<span class="icon">
+									<i class="icon_plus"></i>
+									<i class="icon_minus-06"></i>
+								</span>
+								<ul class="submenu dropdown_nav">
+									<li class="nav-item"><a class="nav-link" href="#install-steps-1">Install The Script
+									</a></li>
+									<li class="nav-item"><a class="nav-link" href="#install-steps-2">Install Process</a></li>
+									<li class="nav-item">
+										<a class="nav-link" href="#install-steps-3">500 ERROR Before Installing</a>
+									</li>
+									<li class="nav-item"><a href="#install-steps-4"
+											class="nav-link">500 Error after installing</a></li>
+								</ul>
+							</li class="nav-item">
+
+							<li class="nav-item">
+								<a class="nav-link" href="#admin"><img src="assets/images/icon/export-file.png">Admin Settings</a>
+								<span class="icon">
+									<i class="icon_plus"></i>
+									<i class="icon_minus-06"></i>
+								</span>
+								<ul class="submenu dropdown_nav">
+									<li class="sub-nav nav-item ">
+										<a class="nav-link" href="#admin-login">Admin Login</a>
+									</li>
+									<li class="sub-nav nav-item ">
+										<a class="nav-link" href="#basic-changes">Basic Changes</a>
+									</li>
+									<li class="sub-nav nav-item ">
+										<a class="nav-link" href="#admin-profile">Admin Profile</a>
+									</li>
+									<li class="sub-nav nav-item ">
+										<a class="nav-link" href="#role-manage">Role Manage</a>
+									</li>
+									<li class="sub-nav nav-item ">
+										<a class="nav-link" href="#options">Options Page</a>
+									</li>
+									<li class="sub-nav nav-item ">
+										<a class="nav-link" href="#smtp">Smtp options</a>
+									</li>
+									<li class="sub-nav nav-item ">
+										<a class="nav-link" href="#sidebar">Sidebar</a>
+									</li>
+									<li class="sub-nav nav-item ">
+										<a class="nav-link" href="#outhers">Outhers</a>
+									</li>
+								</ul>
+
+							<li class="nav-item">
+								<a class="nav-link" href="#instructor"><img src="assets/images/icon/export-file.png">Instructor Settings</a>
+								<span class="icon">
+									<i class="icon_plus"></i>
+									<i class="icon_minus-06"></i>
+								</span>
+								<ul class="submenu dropdown_nav">
+									<li class="sub-nav nav-item ">
+										<a class="nav-link" href="#instructor-login">Instructor Login</a>
+									</li>
+									<li class="sub-nav nav-item ">
+										<a class="nav-link" href="#instructor-profile">Instructor Profile</a>
+									</li>
+									<li class="sub-nav nav-item ">
+										<a class="nav-link" href="#instructor-outhers">Outhers</a>
+									</li>
+								</ul>
+							</li>
+
+							
+						</ul>
+						<!-- </nav> -->
+					</aside>
+				</div>
+				<div class="col-xl-9 col-lg-12">
+					<div class="main-content">
+						<main class="main">
+							<div class="filterable-wrapper">
+								<article id="getting_started" class="section-main doc-section">
+									<div class="steps-panel">
+										<ol class="ordered-list">
+											<li>
+												<strong>Item Name : </strong>Educal - Online Courses and Education Laravel Item
+											</li>
+											<li>
+												<strong>Created: </strong> 9 Oct 2023
+											</li>
+											<li><strong>Item Version : </strong> v 1.0.0</li>
+											<li>
+												<strong>Author : </strong>
+												<a href="https://themeforest.net/user/theme_pure/portfolio"
+													target="_blank">theme_pure</a>
+											</li>
+											<li>
+												<strong>Support Ticket: </strong>
+												<a href="https://help.themepure.net/"
+													target="_blank">https://help.themepure.net/</a>
+											</li>
+										</ol>
+									</div>
+									<figure>
+										<img class="max-100" src="assets/images/screenshot.png" alt="">
+									</figure>
+
+									<section>
+										<h2>Introduction</h2>
+										<h4 class="title">Educal - Online Courses and Education Laravel</h4>
+										<div class="top-support">For any support please don't hesitate to contact us at
+											<a href="https://help.themepure.net/support/"><b>Support Center</b></a>. We
+											provide 13 hours real-time support for our customers.
+										</div>
+										<p>We would like to thank you for choosing Educal - Online Courses and Education Laravel
+											Script.</p>
+										<p>Educal - Online Courses and Education Laravel Scripts. This Scripts  comes with high-quality Pages and many built-in  awesome inner pages. An Custom Ecommerce Scripts is a powerful tool for creating a professional and visually appealing Education System And Lms Sites. With a well-designed Scripts, you can quickly and easily build High Quality Website and lms sites. These Scripts provide the basic structure and layout for your Advenced Lms Sites, including pages for product instructor, student, dashboard, and more. Whether you're just starting out with your Lms business or looking to revamp your existing website, an Custom Lms Script can be a valuable resource for creating a high-quality Lms Sites that meets your unique needs</p>
+									</section>
+									<!-- End of #getting_started -->
+									<section id="requirements">
+										<h3>Getting started</h3>
+										<p>You need at least PHP version 8.1+ installed for this Script to work
+											properly. It is strongly recommended that you always use the latest stable
+											version of PHP to ensure all known bugs and security issues are fixed.
+											Other getting_started:</p>
+
+										<div class="steps-panel">
+											<ul class="ordered-list">
+												<li>PHP version 8.1 or greater. But for maximum speed gain we recommend
+													you to use PHP version 7.3+.</li>
+												<li>MySQL version 5.6 or greater OR MariaDB version 10.0 or greater.
+												</li>
+												<li>PHP memory limit of 128 MB or greater.</li>
+											</ul>
+										</div>
+
+										<h4>Recommended PHP configuration limits</h4>
+										<ul class="code">
+											<li>max_execution_time 900</li>
+											<li>memory_limit 512M</li>
+											<li>post_max_size 256M</li>
+											<li>upload_max_filesize 500M</li>
+											<li>max_input_time = 900</li>
+											<li>max_input_vars = 1000</li>
+										</ul>
+										
+										<h3>Server Requirements</h3>
+										<p>Minimum server space and RAM or processor, or resources are required on the hosting plan: RAM 2G, 1 CPU, 10GB Disk</p>
+										<figure>
+											<img class="max-100" src="assets/images/server-req.png" alt="">
+										</figure>
+									</section>
+				
+
+									<section id="what_included">
+										<h3>What's Included</h3>
+										<p>After purchasing Educal Laravel Scripts on codecanyon with your Envato account, go
+											to your
+											Download page. You can choose to download Educal Laravel Scripts only (Installable
+											Script) or the entire Educal Laravel Scripts package which contains the following files:
+										</p>
+										<figure>
+											<img class="max-100" src="assets/images/include/1.png" alt="">
+										</figure>
+										<h4>The contents of the script package downloaded from codecanoyn</h4>
+										<div class="steps-panel">
+											<ul class="ordered-list">
+												<li><strong>educal.zip</strong> - An Installable laravel Script zip
+													file. this file you need to upload to laravel.</li>
+												
+												<li><strong>Documentation</strong> - This folder contains what you are
+													reading now :)</li>
+											</ul>
+										</div>
+									</section>
+									<!-- End of #what_included -->
+								</article>
+
+								<article id="laravel_installation" class="section-main doc-section">
+									<section>
+										<h2>Educal Installation</h2>
+										<p>Please follow the instructions in the video to see how you can install
+											Educal on your hosting:</p>
+
+										<div class="steps-panel">
+											<ol class="ordered-list">
+												<li><b>For cPanel:</b> <a
+														href="https://www.youtube.com/watch?v=jOSSHJlDfMg"
+														target="_blank">https://www.youtube.com/watch?v=jOSSHJlDfMg</a>
+												</li>
+											</ol>
+										</div>
+									</section>
+									<section id="install-steps-1">
+										<h2>Installing the Script</h2>
+										<strong>Follow the steps below to install Educal system </strong>
+										<div class="steps-panel">
+											<ol class="ordered-list">
+												<li>Unzip the downloaded package</li>
+												<li>Upload the extracted folder to your server</li>
+												<li>Create a database and database user for Educal</li>
+												<li>Open your browser and navigate to your website</li>
+												<li>Follow the instructions and complete the installation</li>
+											</ol>
+										</div>
+									</section>
+									
+
+									<section id="install-steps-2">
+										<h4>Step *:Upload educal.zip to your hosting and UNZIP file</h4>
+										<figure>
+											<img class="max-100" src="assets/images/server-install/package.png" alt="">
+										</figure>
+									</section>
+
+									<section id="install-steps-2">
+										<h4>Step *: – Open Browser with link URL: <code>http://your-url.com/install</code> then Follow the panel to Install the Educal System</h4>
+										
+										<section>
+											<h2>Attention</h2>
+											<blockquote class="media notice notice-warning">
+												<i class="icon_ribbon_alt"></i>
+												<div class="media-body">
+													Make sure Your Url :  <code>http://your-url.com/install</code>
+												</div>
+											</blockquote>
+										</section>
+										<figure>
+											<img class="max-100" src="assets/images/install-1.png" alt="">
+										</figure>
+									</section>
+									<!-- End of #using_ftp_uploader -->
+									<!-- Server requerment check -->
+									<section id="install-steps-2">
+										<h4>Step *: – Check Server Requirements</h4>
+										<figure>
+											<img class="max-100" src="assets/images/install-2.png" alt="">
+										</figure>
+									</section>
+
+									<!-- check permissons -->
+
+									<section id="install-steps-2">
+										<h4>Step *: – Check File Permissions</h4>
+										<figure>
+											<img class="max-100" src="assets/images/install-3.png" alt="">
+										</figure>
+									</section>
+
+									<!-- Settings Wiizerd -->
+
+									<section id="install-steps-2">
+										<h4>Step *: – Settings Wizerd</h4>
+										<figure>
+											<img class="max-100" src="assets/images/install-8.png" alt="">
+										</figure>
+									</section>
+
+									<!-- Clasic Wizerd Setup -->
+									<section id="install-steps-2">
+										<h4>Step *: – Clasic Wizerd Setup</h4>
+										<figure>
+											<img class="max-100" src="assets/images/install-9.png" alt="">
+										</figure>
+									</section>
+
+									<section>
+										<h2>Attention</h2>
+										<blockquote class="media notice notice-warning">
+											<i class="icon_ribbon_alt"></i>
+											<div class="media-body">
+												<p><strong>Important!</strong> <p>You Should Follow The Steps</p><br> 
+													1 . <code>DB_DATABASE=your_db_name</code><br>
+													2 . <code>DB_USERNAME=your_db_user</code><br>
+													3 . <code>DB_PASSWORD=your_db_pass</code><br>
+													4 .<code> Click Save.env Button </code><br>
+													5 . <code>Click Save And Install</code>
+												</p>
+											</div>
+										</blockquote>
+									</section>
+
+									<section>
+										<h3>Now Admin Can Login And Change YOur Info</h3>
+										
+										<p>Login Site account by typing <code>http://your-url.com/login</code>, replacing "YOURDOMAIN" with the actual domain you own.</p>
+										<blockquote class="media notice notice-warning">
+										<h4>Administrator</h4>
+										<p>
+											<strong>Username:</strong><code>admin@gmail.com</code>
+											<strong>Password:</strong><code>12345678</code>
+										</p>
+
+										<h4>Instuctor</h4>
+										<p>
+											<strong>Username:</strong><code>teacher@gmail.com</code>
+											<strong>Password:</strong><code>12345678</code>
+										</p>
+
+										<h4>Student</h4>
+										<p>
+											<strong>Username:</strong><code>student@gmail.com</code>
+											<strong>Password:</strong><code>12345678</code>
+										</p>
+									</blockquote>
+										<figure>
+											<img src="assets/images/demo/login.png" alt="4.1.1" class="doc-image">
+											
+										</figure>
+									</section>
+									
+									<!-- 500 ERROR Before Installing -->
+									
+									<section id="install-steps-3">
+										<h3>500 ERROR Before Installing</h3>
+										<div class="steps-panel">
+											<ol class="ordered-list">
+												<li> *env file is existed - Use the script that is installed already. You should download the Newest version for New install</li>
+												<li> *env file is not existed - You should check the permission of the folder</li>
+												<li>PHP version is less than 8.x - GoTrip is working fine in version 8.x.x</li>
+												<li class="mt10"> *env file is existed - Use the script that is installed already. You should download the Newest version for New install</li>
+												<li>Files missing while move from GoTrip folder to public_html</li>
+											</ol>
+										</div>
+										<p>1. Show the Hidden files</p>
+										<figure>
+											<img class="max-100" src="assets/images/server-install/hide-file.png" alt="">
+										</figure>
+										<p>2. Find the Hidden file and upload it again</p>
+										<figure>
+											<img class="max-100" src="assets/images/server-install/missingfile.png" alt="">
+										</figure>
+									</section>
+
+									<section id="install-steps-4">
+										<h3>500 Error after installing</h3>
+										<p>1. The reason of 500|Server error</p>
+										<div class="steps-panel">
+											<ol class="ordered-list">
+												<li>TURN ON the Debug to know the reason of issues</li>
+												<li>Go to public_html/.evn file, open to turn TRUE the debug</li>
+											</ol>
+										</div>
+										<figure>
+											<img class="max-100" src="assets/images/server-install/debug-mode-change.png" alt="">
+										</figure>
+
+										<div class="steps-panel">
+											<ol class="ordered-list">
+												<li>1 - Access Denied for User: After installing the Deny Warrning is showed because of the connection</li>
+												<li>2 - The database is not existed</li>
+												<li>3 - The database is existed but the user is not existed</li>
+												<li>4 - The database is existed but the password is not correct</li>
+												<li>5 -  After installing, the 500|Server Error is showed, try to TURN ON the debug to see the reason of issues</li>
+											</ol>
+										</div>
+
+										<figure>
+											<img class="max-100" src="assets/images/server-install/connect-error.png" alt="">
+										</figure>
+										<figure>
+											<img class="max-100" src="assets/images/server-install/err2.png" alt="">
+										</figure>
+
+										<h3>Fix 500 ERROR</h3>
+										<p>1 - Delete the .env file + storage/installed.php file</p>
+										<figure>
+											<img class="max-100" src="assets/images/server-install/fix.png" alt="">
+										</figure>
+										<p>2 - Create new DB and new User</p>
+										<figure>
+											<img class="max-100" src="assets/images/server-install/create-db-user.png" alt="">
+										</figure>
+										<p> - Create new DB</p>
+										<figure>
+											<img class="max-100" src="assets/images/server-install/create-db.png" alt="">
+										</figure>
+										<p> - Create new User</p>
+										<figure>
+											<img class="max-100" src="assets/images/server-install/create-user.png" alt="">
+										</figure>
+										<p> -Assign Database to User</p>
+										<figure>
+											<img class="max-100" src="assets/images/server-install/assign-db-user.png" alt="">
+										</figure>
+								</article>
+
+								<article id="installation_the_theme" class="section-main doc-section">
+									<section id="admin">
+										<h2>Admin All Settings Hear</h2>
+											<p>
+												<strong>Admin Panel</strong> is the place where you can manage your
+												website. You can access the admin panel by typing
+												<strong>YOURDOMAIN.com/admin/dashboard</strong>, replacing "YOURDOMAIN" with the
+												actual domain you own.
+											</p>
+									
+									</section>
+									<section id="admin-login">
+										<h3>1. Login Admin Dashboard</h3>
+										
+										<p>Login Site account by typing <code>http://your-url.com/dashboard</code>, replacing "YOURDOMAIN" with the actual domain you own.</p>
+
+										<h4>Administrator</h4>
+										<p>
+											<strong>Username:</strong><code>admin@gmail.com</code>
+											<strong>Password:</strong><code>12345678</code>
+										</p>
+
+										<h4>Instuctor</h4>
+										<p>
+											<strong>Username:</strong><code>teacher@gmail.com</code>
+											<strong>Password:</strong><code>12345678</code>
+										</p>
+
+										<h4>Student</h4>
+										<p>
+											<strong>Username:</strong><code>student@gmail.com</code>
+											<strong>Password:</strong><code>12345678</code>
+										</p>
+
+										<figure>
+											<img src="assets/images/demo/login.png" alt="4.1.1" class="doc-image">
+											
+										</figure>
+									</section>
+
+									<section id="basic-changes">
+										<h3>Basic Changes</h3>
+
+										<p>Make Changes your Website Basic Info</p>
+
+										<figure>
+											<img src="assets/images/demo/lang-change.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Changes Website Language</figcaption>
+										</figure>
+
+										<figure>
+											<img src="assets/images/demo/currancy-change.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Changes Website currancy</figcaption>
+										</figure>
+
+										<figure>
+											<img src="assets/images/demo/clear-website-cache.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Clear Website All Cache Like [route,view,outhers]</figcaption>
+										</figure>
+
+										<figure>
+											<img src="assets/images/demo/logout-from-website.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Logout From Website</figcaption>
+										</figure>
+									</section>
+
+									<section id="admin-profile">
+										<h3>Admin Profile</h3>
+
+										<p>Make Changes your Admin Profile Change Page</p>
+
+										<figure>
+											<img src="assets/images/demo/profile-change.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Changes Profile Info</figcaption>
+										</figure>
+
+										<figure>
+											<img src="assets/images/demo/update-admin-info.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Update Admin Info</figcaption>
+										</figure>
+
+										<figure>
+											<img src="assets/images/demo/update-admin-info.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Update Admin Info And Pass</figcaption>
+										</figure>
+
+										<figure>
+											<img src="assets/images/demo/change-profileiimage-admin.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Change Profile Image</figcaption>
+										</figure>
+
+										<figure>
+											<img src="assets/images/demo/change-roles.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Change Admin Roles</figcaption>
+										</figure>
+
+										<figure>
+											<img src="assets/images/demo/add-new-user.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Add User</figcaption>
+										</figure>
+										<section id="admin-profile">
+										<figure>
+											<img src="assets/images/demo/provide-user-details-with-role.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Provide User Details With Role</figcaption>
+										</figure>
+
+										<figure>
+											<img src="assets/images/demo/create-role.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Create Role</figcaption>
+										</figure>
+
+										<figure>
+											<img src="assets/images/demo/create-role-page.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Create Role Page</figcaption>
+										</figure>
+
+										<figure>
+											<img src="assets/images/demo/newsletter.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">News Letter</figcaption>
+										</figure>
+
+									</section>
+									<section id="role-manage">
+										<figure>
+											<img src="assets/images/demo/provide-user-details-with-role.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Provide User Details With Role</figcaption>
+										</figure>
+
+										<figure>
+											<img src="assets/images/demo/create-role.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Create Role</figcaption>
+										</figure>
+
+										<figure>
+											<img src="assets/images/demo/create-role-page.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Create Role Page</figcaption>
+										</figure>
+
+										<figure>
+											<img src="assets/images/demo/newsletter.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">News Letter</figcaption>
+										</figure>
+									</section>
+
+									<section id="options">
+										<figure>
+											<img src="assets/images/demo/options.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Change Options From Hear</figcaption>
+										</figure>
+										<figure>
+											<img src="assets/images/demo/social-changes.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Change Social Info Hear</figcaption>
+										</figure>
+										<figure>
+											<img src="assets/images/demo/contact-info.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Change Contact Info Hear</figcaption>
+										</figure>
+									</section>
+
+									<section id="smtp">
+										<figure>
+											<img src="assets/images/demo/smtp.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Change Smtp Options From Hear</figcaption>
+										</figure>
+									</section>
+									<section id="sidebar">
+										<figure>
+											<img src="assets/images/demo/blog-sidebar.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Change Blog Sidebar Options From Hear</figcaption>
+										</figure>
+									</section>
+									<section id="outhers">
+										<figure>
+											<img src="assets/images/demo/payout-info.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Change Payout Info Hear</figcaption>
+										</figure>
+										<figure>
+											<img src="assets/images/demo/payment-request.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Payment Request Hear</figcaption>
+										</figure>
+										<figure>
+											<img src="assets/images/demo/commission-percent.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Commission Percent</figcaption>
+										</figure>
+										<figure>
+											<img src="assets/images/demo/payment-method.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Payment Method</figcaption>
+										</figure>
+									</section>
+								</article>
+
+								<article id="instructor" class="section-main doc-section">
+									<section id="instructor">
+										<h2>Instructor All Settings Hear</h2>
+											<p>
+												<strong>Instructor Panel</strong> is the place where you can manage your
+												Lms Sites. You can access the instructor panel by typing
+												<strong>YOURDOMAIN.com/admin/dashboard</strong>, replacing "YOURDOMAIN" with the
+												actual domain you own.
+											</p>
+									
+									</section>
+									<section id="instructor-login">
+										<h3>1. Login Instructor Dashboard</h3>
+										
+										<p>Login Site account by typing <code>http://your-url.com/dashboard</code>, replacing "YOURDOMAIN" with the actual domain you own.</p>
+
+										<h4>Administrator</h4>
+										<p>
+											<strong>Username:</strong><code>admin@gmail.com</code>
+											<strong>Password:</strong><code>12345678</code>
+										</p>
+
+										<h4>Instuctor</h4>
+										<p>
+											<strong>Username:</strong><code>teacher@gmail.com</code>
+											<strong>Password:</strong><code>12345678</code>
+										</p>
+
+										<h4>Student</h4>
+										<p>
+											<strong>Username:</strong><code>student@gmail.com</code>
+											<strong>Password:</strong><code>12345678</code>
+										</p>
+
+										<figure>
+											<img src="assets/images/demo/login.png" alt="4.1.1" class="doc-image">
+											
+										</figure>
+									</section>
+
+									<section id="instructor-profile">
+										<h3>Instructor Profile</h3>
+
+										<p>Make Changes your Instructor Profile Change Page</p>
+
+										<figure>
+											<img src="assets/images/demo/profile-change.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Changes Profile Info</figcaption>
+										</figure>
+
+										<figure>
+											<img src="assets/images/demo/update-admin-info.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Update Instructor Info</figcaption>
+										</figure>
+
+										<figure>
+											<img src="assets/images/demo/update-admin-info.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Update Instructor Info And Pass</figcaption>
+										</figure>
+
+										<figure>
+											<img src="assets/images/demo/change-profileiimage-admin.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Change Profile Image</figcaption>
+										</figure>
+									</section>
+									<section id="instructor-outhers">
+										<figure>
+											<img src="assets/images/demo/payout-info.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Change Payout Info Hear</figcaption>
+										</figure>
+										<figure>
+											<img src="assets/images/demo/payment-request.png" alt="4.1.1" class="doc-image">
+											<figcaption class="text-center">Payment Request Hear</figcaption>
+										</figure>
+									</section>
+								</article>
+								<section id="section-4-3">
+									<h3>Where Is My Purchase Code?</h3>
+									<p> To learn about how to find
+										your purchase code. When you buy a product from envato you get a purchase
+										code. visit the following link:</p>
+									<a href="https://help.market.envato.com/hc/en-us/articles/202822600-Where-Can-I-Find-my-Purchase-Code"
+										target="_blank">Purchase Code</a>
+								</section>
+								<section id="getting_started7">
+									<h3>17. Contact</h3>
+									<p style="color:red;font-weight:bold;">If you face any issue please contact us at
+										<a class="black-color" href="https://help.themepure.net">Support Ticket</a>. We
+										provide 15 hours real-time support for our customers.
+									</p>
+									<p>Thank you for purchasing our Script.</p>
+									<p class="mt50"></p>
+								</section>
+								<!-- End of #getting_started1-4 -->
+
+							</div>
+
+
+
+							<!-- End of .filterable-wrapper -->
+						</main>
+					</div>
+				</div>
+			</div>
+			<!-- End of .main-content -->
+		</div>
+		<!-- End of .container -->
+	</div>
+	<!-- End of .main-content -->
+
+	<footer class="tp-footer">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-8">
+					<div class="page-footer">
+						<p>© 2023 All Rights Reserved by <a
+								href="https://themeforest.net/user/theme_pure/portfolio">theme_pure</a>.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="social-footer text-md-end">
+						<a href="https://www.youtube.com/@themepure"><i class="social_youtube"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<!-- End of .page-footer -->
+
+	<!-- Javascripts
+		======================================= -->
+	<!-- jQuery -->
+	<script src="assets/js/vendor/jquery.min.js"></script>
+	<script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+
+	<!-- Custom Script -->
+	<script src="assets/js/onpage-menu.js"></script>	
+	<script src="assets/js/main.js"></script>	
+
+</body>
+
+</html>
